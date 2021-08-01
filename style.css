@@ -1,0 +1,51 @@
+/*
+CSS File
+By Ulysse Valdenaire
+01/08/2021
+*/
+
+body {
+  background: url("Images/fond.jpg") fixed center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+form {
+  width: 550px;
+  margin: auto;
+  line-height: 25px;
+  padding: 40px;
+  background: #2b2b4a;
+  color: white;
+}
+
+.element {
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  width: 11%;
+  margin: auto;
+}
+
+.text:invalid {
+  background: rgb(187, 57, 57);
+}
