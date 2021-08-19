@@ -5,7 +5,7 @@ By Ulysse Valdenaire
 */
 
 body {
-  background: url("Images/fond.jpg") fixed center;
+  background: black;
 }
 
 h2 {
@@ -42,10 +42,28 @@ button {
 }
 
 .button {
-  width: 11%;
   margin: auto;
 }
 
 .text:invalid {
   background: rgb(187, 57, 57);
+}
+
+p,
+h1,
+h3,
+li {
+  color: white;
+}
+
+#container {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  form {
+    padding-right: 20px;
+    width: 300px;
+  }
 }
